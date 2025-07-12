@@ -122,14 +122,14 @@ Partial Class FMenu
         'ManajemenUserToolStripMenuItem
         '
         Me.ManajemenUserToolStripMenuItem.Name = "ManajemenUserToolStripMenuItem"
-        Me.ManajemenUserToolStripMenuItem.Size = New System.Drawing.Size(246, 34)
+        Me.ManajemenUserToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
         Me.ManajemenUserToolStripMenuItem.Text = "Manajemen User"
         '
         'GantiPaToolStripMenuItem
         '
         Me.GantiPaToolStripMenuItem.Name = "GantiPaToolStripMenuItem"
-        Me.GantiPaToolStripMenuItem.Size = New System.Drawing.Size(246, 34)
-        Me.GantiPaToolStripMenuItem.Text = "Ganti pa"
+        Me.GantiPaToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
+        Me.GantiPaToolStripMenuItem.Text = "Ganti Password"
         '
         'LOGOUTToolStripMenuItem
         '

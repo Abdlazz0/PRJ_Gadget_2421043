@@ -4,7 +4,7 @@ Public Class FLogin
         kon.Open()
         perintah.Connection = kon
         perintah.CommandType = CommandType.Text
-        perintah.CommandText = "SELECT * FROM USER " &
+        perintah.CommandText = "SELECT * FROM user_2421043 " &
             " WHERE username='" & txtusername.Text & "' " &
             "AND userpass=MD5('" & txtpassword.Text & "')"
         cek = perintah.ExecuteReader
