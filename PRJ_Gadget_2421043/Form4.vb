@@ -1,4 +1,4 @@
-﻿Imports MySql.Data
+﻿Imports MySql.Data.MySqlClient
 Public Class Fgantipassword
     Private Sub cmdgantipassword_Click(sender As Object, e As EventArgs) Handles cmdgantipassword.Click
         If TextBox1.Text = "" Or TextBox2.Text = "" Or TextBox3.Text = "" Then
@@ -20,13 +20,15 @@ Public Class Fgantipassword
                         TextBox2.Text & "') WHERE username='" & useraktif.ToString & "'"
                     perintah.ExecuteNonQuery()
                     MsgBox("Password berhasil diganti", MsgBoxStyle.Information, "Informasi")
+                    Dim menu As New FMenu()
+                    menu.Show()
+                    Me.Dispose()
                 End If
             Else
                 MsgBox("Password Sekarang salah", MsgBoxStyle.Critical, "Peringatan")
             End If
             kon.Close()
         End If
-        Me.Dispose()
     End Sub
 
     Private Sub TextBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown

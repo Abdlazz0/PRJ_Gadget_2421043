@@ -65,13 +65,13 @@ Partial Class FMenu
         'ProdukToolStripMenuItem
         '
         Me.ProdukToolStripMenuItem.Name = "ProdukToolStripMenuItem"
-        Me.ProdukToolStripMenuItem.Size = New System.Drawing.Size(196, 34)
+        Me.ProdukToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
         Me.ProdukToolStripMenuItem.Text = "Produk"
         '
         'PelangganToolStripMenuItem
         '
         Me.PelangganToolStripMenuItem.Name = "PelangganToolStripMenuItem"
-        Me.PelangganToolStripMenuItem.Size = New System.Drawing.Size(196, 34)
+        Me.PelangganToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
         Me.PelangganToolStripMenuItem.Text = "Pelanggan"
         '
         'TRANSAKSIToolStripMenuItem

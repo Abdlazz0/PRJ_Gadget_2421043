@@ -12,4 +12,14 @@
     Private Sub LOGOUTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOGOUTToolStripMenuItem.Click
         Me.Close()
     End Sub
+
+    Private Sub ProdukToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProdukToolStripMenuItem.Click
+        FProduk.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PelangganToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PelangganToolStripMenuItem.Click
+        FPelanggan.Show()
+        Me.Hide()
+    End Sub
 End Class
