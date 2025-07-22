@@ -84,7 +84,7 @@ Partial Class FMenu
         'PenjualanToolStripMenuItem
         '
         Me.PenjualanToolStripMenuItem.Name = "PenjualanToolStripMenuItem"
-        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(188, 34)
+        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
         Me.PenjualanToolStripMenuItem.Text = "Penjualan"
         '
         'LAPORANToolStripMenuItem

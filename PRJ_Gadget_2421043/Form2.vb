@@ -1,4 +1,5 @@
 ﻿Public Class FMenu
+    Inherits System.Windows.Forms.Form
     Private Sub ManajemenUserToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManajemenUserToolStripMenuItem.Click
         Fuser.Show()
         Me.Hide()
@@ -20,6 +21,11 @@
 
     Private Sub PelangganToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PelangganToolStripMenuItem.Click
         FPelanggan.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PenjualanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenjualanToolStripMenuItem.Click
+        FJual.Show()
         Me.Hide()
     End Sub
 End Class

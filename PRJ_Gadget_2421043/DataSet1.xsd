@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="jual" msprop:Generator_RowEvHandlerName="jualRowChangeEventHandler" msprop:Generator_RowDeletedName="jualRowDeleted" msprop:Generator_RowDeletingName="jualRowDeleting" msprop:Generator_RowEvArgName="jualRowChangeEvent" msprop:Generator_TablePropName="jual" msprop:Generator_RowChangedName="jualRowChanged" msprop:Generator_RowChangingName="jualRowChanging" msprop:Generator_TableClassName="jualDataTable" msprop:Generator_RowClassName="jualRow" msprop:Generator_TableVarName="tablejual" msprop:Generator_UserTableName="jual">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jualnofaktur" msprop:Generator_ColumnPropNameInRow="jualnofaktur" msprop:Generator_ColumnPropNameInTable="jualnofakturColumn" msprop:Generator_ColumnVarNameInTable="columnjualnofaktur" msprop:Generator_UserColumnName="jualnofaktur" type="xs:string" minOccurs="0" />
+              <xs:element name="jualtgl" msprop:Generator_ColumnPropNameInRow="jualtgl" msprop:Generator_ColumnPropNameInTable="jualtglColumn" msprop:Generator_ColumnVarNameInTable="columnjualtgl" msprop:Generator_UserColumnName="jualtgl" type="xs:string" minOccurs="0" />
+              <xs:element name="jualpelangganid" msprop:Generator_ColumnPropNameInRow="jualpelangganid" msprop:Generator_ColumnPropNameInTable="jualpelangganidColumn" msprop:Generator_ColumnVarNameInTable="columnjualpelangganid" msprop:Generator_UserColumnName="jualpelangganid" type="xs:string" minOccurs="0" />
+              <xs:element name="pelanggannama" msprop:Generator_ColumnPropNameInRow="pelanggannama" msprop:Generator_ColumnPropNameInTable="pelanggannamaColumn" msprop:Generator_ColumnVarNameInTable="columnpelanggannama" msprop:Generator_UserColumnName="pelanggannama" type="xs:string" minOccurs="0" />
+              <xs:element name="jualprodukid" msprop:Generator_ColumnPropNameInRow="jualprodukid" msprop:Generator_ColumnPropNameInTable="jualprodukidColumn" msprop:Generator_ColumnVarNameInTable="columnjualprodukid" msprop:Generator_UserColumnName="jualprodukid" type="xs:string" minOccurs="0" />
+              <xs:element name="produknama" msprop:Generator_ColumnPropNameInRow="produknama" msprop:Generator_ColumnPropNameInTable="produknamaColumn" msprop:Generator_ColumnVarNameInTable="columnproduknama" msprop:Generator_UserColumnName="produknama" type="xs:string" minOccurs="0" />
+              <xs:element name="kategorinama" msprop:Generator_ColumnPropNameInRow="kategorinama" msprop:Generator_ColumnPropNameInTable="kategorinamaColumn" msprop:Generator_ColumnVarNameInTable="columnkategorinama" msprop:Generator_UserColumnName="kategorinama" type="xs:string" minOccurs="0" />
+              <xs:element name="marknama" msprop:Generator_ColumnPropNameInRow="marknama" msprop:Generator_ColumnPropNameInTable="marknamaColumn" msprop:Generator_ColumnVarNameInTable="columnmarknama" msprop:Generator_UserColumnName="marknama" type="xs:string" minOccurs="0" />
+              <xs:element name="jualimei" msprop:Generator_ColumnPropNameInRow="jualimei" msprop:Generator_ColumnPropNameInTable="jualimeiColumn" msprop:Generator_ColumnVarNameInTable="columnjualimei" msprop:Generator_UserColumnName="jualimei" type="xs:string" minOccurs="0" />
+              <xs:element name="jualharga" msprop:Generator_ColumnPropNameInRow="jualharga" msprop:Generator_ColumnPropNameInTable="jualhargaColumn" msprop:Generator_ColumnVarNameInTable="columnjualharga" msprop:Generator_UserColumnName="jualharga" type="xs:double" minOccurs="0" />
+              <xs:element name="jualqty" msprop:Generator_ColumnPropNameInRow="jualqty" msprop:Generator_ColumnPropNameInTable="jualqtyColumn" msprop:Generator_ColumnVarNameInTable="columnjualqty" msprop:Generator_UserColumnName="jualqty" type="xs:double" minOccurs="0" />
+              <xs:element name="jualuserinput" msprop:Generator_ColumnPropNameInRow="jualuserinput" msprop:Generator_ColumnPropNameInTable="jualuserinputColumn" msprop:Generator_ColumnVarNameInTable="columnjualuserinput" msprop:Generator_UserColumnName="jualuserinput" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
